@@ -12,3 +12,7 @@ Pia Hoenscheid<sup>1,2,3</sup>, Gustavo B. Baretton<sup>1,2,3,4</sup>, Martin Pu
 <sup>6</sup>Department of Urology, Faculty of Medicine, University Hospital Carl Gustav Carus, TU Dresden, 01307 Dresden, Germany <br>
 <sup>7</sup>Department of Gynecology and Gynecological Oncology, University Hospital Bonn, 53127 Bonn, Germany; <br>
 <sup>8</sup>UroFors Consortium (Natural Scientists in Urological Research), German Society of Urology, 14163 Berlin, Germany. <br>
+
+## Additional information
+
+If you want to reproduce the results, you can download the folder PCaSilentPartners, create a R project and read files in or run the analysis. Images are found in the paper mentioned above. Folders for images do exist but are not uploaded due to image size.
