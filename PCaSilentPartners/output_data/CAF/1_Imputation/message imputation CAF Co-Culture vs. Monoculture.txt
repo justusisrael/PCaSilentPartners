@@ -1,0 +1,34 @@
+[1] "2024-08-02 20:48:32"
+starting Imputation 
+  missForest iteration 1 in progress...done!
+    estimated error(s): 0.149039 
+    difference(s): 0.0004492175 
+    time: 5.21 seconds
+
+  missForest iteration 2 in progress...done!
+    estimated error(s): 0.1438785 
+    difference(s): 7.240386e-07 
+    time: 4.84 seconds
+
+  missForest iteration 3 in progress...done!
+    estimated error(s): 0.1437499 
+    difference(s): 3.773125e-07 
+    time: 4.91 seconds
+
+  missForest iteration 4 in progress...done!
+    estimated error(s): 0.1444545 
+    difference(s): 3.2402e-07 
+    time: 4.56 seconds
+
+  missForest iteration 5 in progress...done!
+    estimated error(s): 0.14409 
+    difference(s): 2.43368e-07 
+    time: 4.59 seconds
+
+  missForest iteration 6 in progress...done!
+    estimated error(s): 0.1445823 
+    difference(s): 3.308299e-07 
+    time: 4.61 seconds
+
+finished Imputation 
+[1] "2024-08-02 20:49:00"

@@ -1,0 +1,76 @@
+clusterProfiler v4.12.2 Learn more at https://yulab-smu.top/contribution-knowledge-mining/
+
+Please cite:
+
+S Xu, E Hu, Y Cai, Z Xie, X Luo, L Zhan, W Tang, Q Wang, B Liu, R Wang, W Xie, T Wu, L Xie, G Yu. Using clusterProfiler to
+characterize multiomics data. Nature Protocols. 2024, doi:10.1038/s41596-024-01020-z
+
+Attache Paket: ‘clusterProfiler’
+
+Das folgende Objekt ist maskiert ‘package:AnnotationDbi’:
+
+    select
+
+Das folgende Objekt ist maskiert ‘package:IRanges’:
+
+    slice
+
+Das folgende Objekt ist maskiert ‘package:S4Vectors’:
+
+    rename
+
+Das folgende Objekt ist maskiert ‘package:stats’:
+
+    filter
+
+ReactomePA v1.48.0  For help: https://yulab-smu.top/biomedical-knowledge-mining-book/
+
+If you use ReactomePA in published research, please cite:
+Guangchuang Yu, Qing-Yu He. ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization. Molecular BioSystems 2016, 12(2):477-479
+[1] "2024-08-02 20:44:58"
+begin GSEA Reactome LNCaP Co-Culture vs. Monoculture 
+'select()' returned 1:many mapping between keys and columns
+Warnmeldung:
+In clusterProfiler::bitr(res$Genes, fromType = "SYMBOL", toType = "ENTREZID",  :
+  0.52% of input gene IDs are fail to map...
+using 'fgsea' for GSEA analysis, please cite Korotkevich et al (2019).
+
+preparing geneSet collections...
+GSEA analysis...
+leading edge analysis...
+done...
+Es gab 14 Warnungen (Anzeige mit warnings())
+Warnmeldungen:
+1: In preparePathwaysAndStats(pathways, stats, minSize, maxSize,  ... :
+  There are ties in the preranked stats (23.07% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+2: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+3: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+4: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+5: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+6: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+7: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+8: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+9: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+10: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+11: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+12: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+13: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+14: In serialize(data, node$con) :
+  'package:stats' evtl. nicht verfügbar während des Ladens
+finished GSEA Reactome LNCaP Co-Culture vs. Monoculture 
+[1] "2024-08-02 20:45:29"
+[1] "started 2024-08-02 20:44:58 and finished 2024-08-02 20:45:29"
+Time difference of 31 secs

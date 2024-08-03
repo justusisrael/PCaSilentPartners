@@ -1,0 +1,111 @@
+[1] "2024-08-02 20:39:56"
+Lade nötiges Paket: pathfindR.data
+##############################################################################
+                        Welcome to pathfindR!
+
+Please cite the article below if you use pathfindR in published reseach:
+
+Ulgen E, Ozisik O, Sezerman OU. 2019. pathfindR: An R Package for Comprehensive
+Identification of Enriched Pathways in Omics Data Through Active Subnetworks.
+Front. Genet. doi:10.3389/fgene.2019.00858
+
+##############################################################################
+Lade nötiges Paket: AnnotationDbi
+Lade nötiges Paket: stats4
+Lade nötiges Paket: BiocGenerics
+
+Attache Paket: ‘BiocGenerics’
+
+Das folgende Objekt ist maskiert ‘package:limma’:
+
+    plotMA
+
+Die folgenden Objekte sind maskiert von ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind, colnames, dirname, do.call, duplicated, eval, evalq,
+    Filter, Find, get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget, order, paste, pmax, pmax.int,
+    pmin, pmin.int, Position, rank, rbind, Reduce, rownames, sapply, setdiff, table, tapply, union, unique, unsplit,
+    which.max, which.min
+
+Lade nötiges Paket: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with 'browseVignettes()'. To cite Bioconductor, see 'citation("Biobase")',
+    and for packages 'citation("pkgname")'.
+
+Lade nötiges Paket: IRanges
+Lade nötiges Paket: S4Vectors
+
+Attache Paket: ‘S4Vectors’
+
+Die folgenden Objekte sind maskiert von ‘package:dplyr’:
+
+    first, rename
+
+Das folgende Objekt ist maskiert ‘package:tidyr’:
+
+    expand
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attache Paket: ‘IRanges’
+
+Die folgenden Objekte sind maskiert von ‘package:dplyr’:
+
+    collapse, desc, slice
+
+Das folgende Objekt ist maskiert ‘package:grDevices’:
+
+    windows
+
+
+Attache Paket: ‘AnnotationDbi’
+
+Das folgende Objekt ist maskiert ‘package:dplyr’:
+
+    select
+
+
+begin pathfindR Reactome LNCaP Co-Culture vs. Monoculture 
+[1] "2024-08-02 20:39:57"
+## Testing input
+The input looks OK
+## Processing input. Converting gene symbols,
+          if necessary (and if human gene symbols provided)
+Number of genes provided in input: 2301
+Number of genes in input after p-value filtering: 985
+Could not find any interactions for 11 (1.12%) genes in the PIN
+Final number of genes in input: 974
+## Performing Active Subnetwork Search and Enrichment
+`n_processes` is set to `iterations` because `iterations` < `n_processes`
+## Processing the enrichment results over all iterations
+## Annotating involved genes and visualizing enriched terms
+Found 875 enriched terms
+
+
+You may run:
+
+- cluster_enriched_terms() for clustering enriched terms
+
+- visualize_terms() for visualizing enriched term diagrams
+
+
+finished pathfindR Reactome LNCaP Co-Culture vs. Monoculture 
+[1] "2024-08-02 20:44:56"
+[1] "started 2024-08-02 20:39:56 and finished 2024-08-02 20:44:56"
+Time difference of 5 mins
