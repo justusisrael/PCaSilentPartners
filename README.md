@@ -14,3 +14,6 @@ Pia Hoenscheid<sup>1,2,3</sup>, Gustavo B. Baretton<sup>1,2,3,4</sup>, Martin Pu
 ## Additional information
 
 If you want to reproduce the results, you can download the folder PCaSilentPartners, create a R project and read files in or run the analysis. Folders for images do exist but are not uploaded due to image size.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13208429.svg)](https://doi.org/10.5281/zenodo.13208429)
+
